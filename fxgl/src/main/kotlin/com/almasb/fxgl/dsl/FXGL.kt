@@ -84,7 +84,7 @@ class FXGL private constructor() { companion object {
 
     private lateinit var engine: Engine
     private lateinit var fxApp: FXGLApplication
-    private var lateinit app: GameApplication
+    private var app: GameApplication
 
     @JvmStatic
     internal fun inject(e: Engine, gameApp: GameApplication, a: FXGLApplication) {
